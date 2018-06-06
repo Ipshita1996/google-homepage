@@ -69,6 +69,7 @@ input{
 }
 .mic{
     position: relative;
+    cursor: pointer;
 }
 .buttons{
     position: relative;
@@ -83,6 +84,7 @@ button{
     background-color:#ededed;
     padding: 10px 20px 10px 20px;
     margin:5px;
+    cursor: pointer;
 }
 .language {
     position: relative;
@@ -94,4 +96,36 @@ a{
 }
 .lang{
     margin:5px;
+}
+
+/*footer*/
+
+footer{
+    background-color:#ededed;
+    position: absolute;
+    bottom: 0px;
+    color: #666;
+    width: 100%;
+}
+.country{
+    font-size:0.85em;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.bottom-nav{
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+.right-nav{
+    top:-15px;
+    position: relative;
+    float: right;
+}
+
+.left-nav li, .right-nav li{
+    padding: 10px;
+    font-size:0.80em;
+    cursor: pointer;
 }
