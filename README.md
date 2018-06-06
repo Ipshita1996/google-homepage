@@ -15,3 +15,4 @@ THE EASY VERSION (to build the google.com homepage)
 --------------
 1. To start with, I saved a few images and caputred a few (usin screen capture tool) into my images folder.
 2. I began and completed the initial html markup.
+3. Included the very basic CSS for all elements (header, content, footer) in the webpage

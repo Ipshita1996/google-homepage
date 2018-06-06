@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 /* header and the grid*/
@@ -35,6 +36,8 @@ li{
 }
 
 .c{
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin: 0 auto;
 }
 
@@ -44,3 +47,51 @@ li{
 }
 
 /*main-content*/
+#hero-logo{
+    position: relative;
+    left: 120px;
+    padding: 20px;
+}
+.form-element{
+    /*border:1px solid blue;*/
+}
+.search{
+    height: 40px;
+    box-shadow: 2px 1px 10px #666;
+}
+
+input{
+    position: relative;
+    height: 32px;
+    width: 530px;
+    top: -16px;
+    border: none;
+}
+.mic{
+    position: relative;
+}
+.buttons{
+    position: relative;
+    left: 120px;
+    top:20px;
+    padding: 10px;
+}
+button{
+    color:#666;
+    font-weight: bold;
+    border:none;
+    background-color:#ededed;
+    padding: 10px 20px 10px 20px;
+    margin:5px;
+}
+.language {
+    position: relative;
+    top:30px;
+    font-size:0.80em;
+}
+a{
+    text-decoration: none;
+}
+.lang{
+    margin:5px;
+}
