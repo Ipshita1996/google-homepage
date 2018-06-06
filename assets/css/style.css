@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* header and the grid*/
+/* basics and the grid*/
 
 body{
     margin:0 auto;
@@ -46,6 +46,38 @@ li{
     padding: 30px;
 }
 
+/*header*/
+.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.notif{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #cc0000;
+    color:white;
+    position: relative;
+    top: -8px;
+}
+
+.main-nav ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.txt{
+    font-size: 0.80em;
+    position: relative;
+    top: -5px;
+}
+
 /*main-content*/
 #hero-logo{
     position: relative;
@@ -85,6 +117,9 @@ button{
     padding: 10px 20px 10px 20px;
     margin:5px;
     cursor: pointer;
+}
+button:hover{
+    color:#000;
 }
 .language {
     position: relative;
@@ -128,4 +163,7 @@ footer{
     padding: 10px;
     font-size:0.80em;
     cursor: pointer;
+}
+.left-nav li:hover, .right-nav li:hover{
+    text-decoration: underline;
 }
