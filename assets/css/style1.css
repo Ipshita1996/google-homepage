@@ -8,25 +8,27 @@
     display: grid;
     grid-template-rows:2fr,1fr;
     grid-template-columns:repeat(12,1fr);
+    background-color: #fafafa;
+    border-bottom: 1px solid #ebebeb;
 }
+
+/*header*/
 .hero-logo{
     grid-row-start: 1;
     grid-row-end: span 1;
     grid-column-start: 1;
     grid-column-end: span 1;
-    border:1px solid red;
 }
 .hero-logo img{
     margin:30px 20px 10px 20px;
-    width:150px;
+    width:120px;
+    cursor: pointer;
 }
 .searchbar{
-    border:1px solid blue;
     grid-row: 1/span 1;
     grid-column: 2/span 5;
 }
 .main-nav{
-    border:1px solid green;
     grid-row: 1/span 1;
     grid-column: 11/-1;
     margin:10px 20px 10px 20px;
@@ -50,8 +52,93 @@
     border-radius: 50%;
     background-color: #cc0000;
     color:white;
-    position: relative;
-    top: -18px
-    left:20px;
     font-size:0.75em;
+    position: absolute;
+    top:2px;
+    cursor: pointer;
+}
+
+.user{
+    top:12px;
+    cursor: pointer;
+}
+.user img{
+    width: 35px;
+    border-radius: 50%;
+}
+.app{
+    position: relative;
+    top:10px;
+    cursor: pointer;
+}
+
+.search{
+    height: 40px;
+    position: relative;
+    top:20px;
+    width: 545px;
+}
+.mic, .search-icon{
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.mic{
+    top:6px;
+    left:550px;
+}
+.search-icon{
+    left:600px;
+    top:9px;
+}
+input{
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    height: 28px;
+    width: 618px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 2px 2px 6px #dcdcdc;
+}
+.searchbar{
+    margin:10px;
+}
+
+.bottom-bar{
+    grid-row: 2/span 1;
+    grid-column: 2/span 6;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.right-opt{
+    position: relative;
+    float: right;
+    top:-20px;
+}
+.bottom-bar li{
+    display: inline;
+}
+
+a{
+    color: #1A73E8;
+}
+.bottom-bar a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.85em;
+    color:#666;
+    margin-right: 5px;
+    position: relative;
+    bottom: -5px;
+}
+
+.bottom-bar a:hover{
+    color: #000;
+}
+
+#active{
+    color:#1A73E8;
+    font-weight: bold;
+    border-bottom:4px solid #1A73E8;
 }
