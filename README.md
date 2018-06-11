@@ -22,3 +22,5 @@ THE DIFFICULT VERSION (to build the search results page of Google)
 ---------------
 1. I linked this new html with the old one. To visit the difficult version, one must simply click on the user profile image.
 2. I completed the HTML markup for this page as well.
+3. Finally after finishing the css for the header, content and the footer, my webpage is ready.
+4. This entire project should've been done in 1-2 days but fueled with procrastination it took me 5 days.
