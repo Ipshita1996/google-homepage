@@ -199,5 +199,28 @@ article p{
 }
 
 .pagination{
+    position: relative;
+    top:-100px;
     grid-column: 2/span 1;
 }
+.pg{
+    margin-left:110px;
+}
+.pagi{
+    margin-left: 120px;
+    margin-top:10px;
+}
+#first{
+    margin-left:30px;
+}
+.pagi li{
+    display: inline;
+    margin-left: 4px;
+}
+.pagi li a{
+    text-decoration: none;
+}
+#nxt{
+    margin-left: 60px;
+}
+/*footer*/
