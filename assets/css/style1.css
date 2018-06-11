@@ -224,3 +224,27 @@ article p{
     margin-left: 60px;
 }
 /*footer*/
+.f{
+    display: grid;
+    grid-template-rows:1fr,1fr;
+    grid-template-columns:repeat(12,1fr);
+    background-color: #fafafa;
+    border-top: 1px solid #ebebeb;
+}
+footer{
+    grid-row: 1/span 1;
+    grid-column: 2/span 10;
+}
+footer p{
+    color:#666;
+    font-size:0.85em;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.bottom-nav li{
+    list-style: none;
+    display: inline;
+    color:#666;
+    padding:20px;
+    font-size: 0.85em;
+}
