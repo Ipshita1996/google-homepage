@@ -25,4 +25,4 @@ THE DIFFICULT VERSION (to build the search results page of Google)
 3. Finally after finishing the css for the header, content and the footer, my webpage is ready.
 4. This entire project should've been done in 1-2 days but fueled with procrastination it took me 5 days.
 
-Both the versions can be found at this <a href="https://ipshita1996.github.io/google-homepage/index.html">link</a>
+Both the versions can be found at this <a href="https://ipshitachatterjee.github.io/google-homepage/">link</a>
